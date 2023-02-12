@@ -1,0 +1,9 @@
+Javascript Concepts Covered:
+#1. DOM [getElementbyId()]
+#2. Variables [let, const]
+#3. Function [regular function]
+#4. Conditionals [if else]
+#5. Comparison operators [>< ==]
+#6. Strings & Numbers [assignment +=]
+#7. Operators [setTimeout() clearTimeout()]
+#8. Array [split() shift()]

@@ -1,0 +1,68 @@
+*, 
+::before, 
+::after{
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+body{
+    font-weight: 800;
+    font-family: 'Julee', cursive;
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.856);
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+}
+
+img{
+    width: 1400px;
+    position: absolute;
+    left: 10%;
+}
+
+.container{
+    position: absolute;
+    top: 48%;
+    left: 43%;
+    font-size: 1.8rem;
+    max-width: 600px;
+}
+
+/* X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {
+    img{
+        width: 900px;
+        position: absolute;
+        left: 10%;
+    }
+    
+    .container{
+        position: absolute;
+        top: 53%;
+        left: 38%;
+        font-size: 1.3rem;
+        max-width: 600px;
+    }
+}
+
+
+/* (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    img{
+        width: 400px;
+        position: absolute;
+        left: 5%;
+    }
+
+    .container{
+        font-size: 1rem;
+        max-width: 800px;
+        position: absolute;
+        top: 45%;
+        left: 18%;
+    }
+}
